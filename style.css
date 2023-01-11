@@ -1,0 +1,134 @@
+.fornt {
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 50px;
+}
+
+@media (max-width:375px) {
+    .fornt {
+        flex-direction: column;
+    }
+
+}
+
+
+/*this is part1*/
+
+.sed {
+    background-color: hsl(31, 77%, 52%);
+    width: 250px;
+    height: 480px;
+    justify-content: center;
+    text-align: center;
+    border-top-left-radius: 1ch;
+    border-bottom-left-radius: 1ch;
+    padding: 50px;
+}
+
+#head {
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 10px;
+}
+
+#prah {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+#butt {
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+    margin-bottom: 5px;
+    border: none;
+
+
+}
+
+/*this is part 2*/
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    width: 250px;
+    height: 480px;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+#head2 {
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 10px;
+}
+
+#prah2 {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+
+}
+
+#butt2 {
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+    border: none;
+}
+
+/*this is part3*/
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    width: 250px;
+    height: 480px;
+    justify-content: center;
+    text-align: center;
+    border-top-right-radius: 1ch;
+    border-bottom-right-radius: 1ch;
+    padding: 50px;
+}
+
+#head3 {
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 10px;
+}
+
+#prah3 {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+#butt3 {
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+    margin-top: 5px;
+    border: none;
+}
+
+#prah .prah2.prah3 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* 
+@media screen {
+    body {
+        min-width: 375px;
+        max-width: 1440px;
+        ;
+
+    }
+} */
